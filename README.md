@@ -1,39 +1,37 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Table of contents:
 
-Welcome,
+## **Planning stage**
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### **Target Audiences:**
+* Users who have never heard of special olympics young atheles sports club Galway
+* Users who wish to find upcoming training events. 
+* Users who want to view previous club events and upcoming events. 
+* Users who have heard about the Special Olympics Young athletes sports club and would like to find out more and or sign up. 
+### **User Stories:**
+* As a user, I want to able to register and sign up. 
+* As a user, I want to able to view classes and programs.
+* As a user, I want to be able to access important information and trainings easily regarding the club. 
+* As a user, I was to be able to easily naviagate my way through the page(s).
+* As a user, I want easy access to discussions and announcements. 
+### **Site Aims:**
+* To gather all the trainings associated to SOYA and make them more accessable by the parents, volunteers etc.
+* To assist in the rebranding of SOYA from a charity to a sports club.
+* To offer users another form of media to connect with similar people.
+* To provide a space where users can learn about upcoming programes, shecdules and events. 
+* To prodide the club with another safe and secure means to sign up, register and store atheles data.
+* To provide a fun area where memories can be stored for life. 
+### **How Is This Will Be Achieved:**
+* The home page provides the user with an introduction to the Special Olympics Young Athletes Sports Club. A breif history of the club and what they wish to achieve. 
+* The site will provide a Gallery where the club can share its memories. 
+* The site will provide sign up / register page where parents can sign their atheletes up. 
+* The site will provide a training page, this will link in all relevent trainings members need to have completed. 
+* The site will provide all relevent communications / information on programes running. 
+* The site will provide links to the clubs social media sites. 
+* The site will provide an for additional/more informtion link with will direct the user back to spcial olympics ireland.  
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
