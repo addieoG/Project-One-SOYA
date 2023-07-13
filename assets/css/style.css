@@ -1,6 +1,6 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lato:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lato:wght@300&family=Ubuntu&display=swap');
 
-</style>* {
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -10,7 +10,9 @@
 
 .nav_1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav a img {
@@ -18,15 +20,21 @@ nav a img {
     width: 100px;
 }
 
+.nav-menu {
+    display: flex;
+    gap: 1rem;
+}
+
 nav li {
     list-style: none;
-    display: inline-block;
+
 }
 
 nav li a {
     text-decoration: none;
     color: #636359;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 112.5%;
 }
 
 .nav-menu a:hover {
