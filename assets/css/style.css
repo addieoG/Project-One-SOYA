@@ -6,3 +6,44 @@
     border: none;
 }
 
+/* Nav Bar */
+
+header {
+    height: 100px;
+    width: 100%;
+}
+
+.nav_1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a img {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+
+}
+
+nav li {
+    margin-top: 65px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #636359;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-menu a:hover {
+    border-bottom: 1px solid #FF0000;
+}
+
+.nav-menu a:hover,
+a:active {
+    color: #FF0000;
+}
