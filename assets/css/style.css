@@ -10,6 +10,7 @@ figure img {
     z-index: -1;
     position: absolute;
     width: 100%;
+    height: auto;
     height: 2400px;
     opacity: 0.5;
 }
@@ -17,18 +18,16 @@ figure img {
 /* Nav Bar */
 
 .nav_1 {
-    margin-top: 15px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-
 }
 
 nav a img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 .nav-menu {
@@ -55,4 +54,20 @@ nav li a {
 .nav-menu a:hover,
 a:active {
     color: #FF0000;
+}
+
+/*hero Image Styles */
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 7%, rgba(200, 16, 46, 1) 42%);
+}
+
+.hero-image img {
+    height: 700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+
 }
