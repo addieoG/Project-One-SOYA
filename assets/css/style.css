@@ -47,3 +47,23 @@ nav li a {
 a:active {
     color: #FF0000;
 }
+
+/*logo*/
+.logo {
+
+    height: 90px;
+    background-image: linear-gradient(rgba(255, 0, 0, 1), rgba(255, 255, 255, 1));
+    width: 33%;
+    border-radius: 0px 0px 95px 0px;
+}
+
+h1,
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #636359;
+    line-height: 35px;
+    margin-left: 15px;
+    justify-content: center;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
