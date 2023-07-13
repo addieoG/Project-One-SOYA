@@ -6,13 +6,23 @@
     border: none;
 }
 
+figure img {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 2400px;
+}
+
 /* Nav Bar */
 
 .nav_1 {
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+
 }
 
 nav a img {
