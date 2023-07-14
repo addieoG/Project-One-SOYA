@@ -18,7 +18,6 @@ figure img {
 /* Nav Bar */
 
 .nav_1 {
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,11 +62,25 @@ a:active {
     justify-content: center;
     background: rgb(255, 255, 255);
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 7%, rgba(200, 16, 46, 1) 42%);
+    border-top: 70px solid #51534a;
+}
+
+.image {
+    display: flex;
 }
 
 .hero-image img {
     height: 700px;
     width: 1200px;
     background-repeat: no-repeat;
+}
 
+.hero-club-name {
+    display: flex;
+
+}
+
+.hero-image h1 h4 {
+    display: flex;
+    color: white;
 }
