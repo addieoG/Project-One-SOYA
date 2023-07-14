@@ -6,7 +6,7 @@
     border: none;
 }
 
-figure img {
+.background-image {
     z-index: -1;
     position: absolute;
     width: 100%;
@@ -71,4 +71,3 @@ a:active {
     width: 1200px;
     background-repeat: no-repeat;
 }
-
