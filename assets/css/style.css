@@ -263,3 +263,12 @@ a:active {
     font-size: 1.25rem;
     border-radius: 30% 0 50% 0;
 }
+
+.calander {
+    background-image: url('');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
+}
