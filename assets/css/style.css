@@ -6,6 +6,12 @@
     border: none;
 }
 
+/*generic stylings */
+
+.bold {
+    font-weight: 700;
+}
+
 .background-image {
     z-index: -1;
     position: absolute;
