@@ -65,9 +65,6 @@ a:active {
     border-top: 70px solid #51534a;
 }
 
-.image {
-    display: flex;
-}
 
 .hero-image img {
     height: 700px;
@@ -75,12 +72,3 @@ a:active {
     background-repeat: no-repeat;
 }
 
-.hero-club-name {
-    display: flex;
-
-}
-
-.hero-image h1 h4 {
-    display: flex;
-    color: white;
-}
