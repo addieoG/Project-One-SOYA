@@ -6,6 +6,10 @@
     border: none;
 }
 
+body{
+    background-color: #51534a;
+}
+
 /*generic stylings */
 .bold {
     font-weight: 700;
