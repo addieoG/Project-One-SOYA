@@ -331,18 +331,19 @@ a:active {
 
 .details-position {
     position: relative;
+    height: 300px;
     background-color: rgba(0, 0, 0, 0.25);
 }
 
 .more-details {
     position: absolute;
-    top: 150%;
+    top: 100%;
     left: 15%;
+    text-align: center;
+    right: 15%;
 }
 
-.paragraph-off {
-    padding-bottom: 9px;
-}
+
 
 .more-details a {
     color: white;
@@ -352,6 +353,9 @@ a:active {
     border-radius: 12px;
     transition-duration: 0.4s;
     display: block;
+    text-align: center;
+    word-wrap: break-word;
+
 }
 
 .more-details a:hover {
