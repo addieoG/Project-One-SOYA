@@ -138,62 +138,81 @@ a:active {
     position: relative;
 }
 
+.about p {
+    color: white;
+}
+
 .about-heading {
     position: absolute;
-    left: 430px;
-    top: 100px;
+    left: 30px;
+    top: 25px;
     color: white;
-    font-size: 18px;
+    font-size: 26px;
+    width: 33%;
+    height: 100px;
+    background-color: black;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.about-heading h1 {
+    padding-top: 25px;
 }
 
 .about-text-left {
     position: absolute;
     height: 150px;
-    background-color: white;
+    background-color: #C8102E;
     width: 300px;
     left: 20px;
     bottom: 0;
-    text-align: center;
     word-wrap: break-word;
+    border: 5px solid #51534a;
 }
 
 .about-text-left p {
-    margin-top: 25px;
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .about-text-center {
     position: absolute;
     height: 250px;
-    background-color: white;
+    background-color: #C8102E;
     width: 300px;
     left: 320px;
     bottom: 0;
-    text-align: center;
     word-wrap: break-word;
+    border: 5px solid #51534a;
 }
 
 .about-text-center p {
     margin-top: 25px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .about-text-right {
     position: absolute;
     height: 100px;
-    background-color: white;
+    background-color: #C8102E;
     width: 300px;
-    left: 620px;
+    left: 625px;
     bottom: 0;
-    text-align: center;
+
     word-wrap: break-word;
+    border: 5px solid #51534a;
 }
 
-.about-text-right p {
-    margin-top: 25px;
+.about-text-right>p {
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
-
-
-
-
 
 
 /*Styling our club does*/
