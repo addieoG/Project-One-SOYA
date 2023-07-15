@@ -31,11 +31,22 @@ p {
 
 
 /* Nav Bar */
+header {
+    height: 180px;
+}
+
 .nav_1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 2px solid #51534a;
 }
 
 nav a img {
@@ -76,6 +87,7 @@ a:active {
     position: relative;
     border-top: 50px solid #51534a;
     display: flex;
+    margin-top: -30px;
 }
 
 .club-name h1 {
