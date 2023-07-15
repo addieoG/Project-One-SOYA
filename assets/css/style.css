@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Lato:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital,wght@0,400;1,400;1,700&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +10,10 @@
 .bold {
     font-weight: 700;
 }
+
+h1 {}
+
+
 
 /* Nav Bar */
 .nav_1 {
@@ -86,7 +90,7 @@ a:active {
     }
 
     to {
-        transform: scale(1);
+        git add transform: scale(1);
     }
 }
 
