@@ -305,7 +305,7 @@ a:active {
 .calander p {
     padding-top: 10px;
     font-size: 1.25rem;
-    background-color: rgba(0, 0, 0, 0.25);
+
 
 }
 
@@ -319,24 +319,29 @@ a:active {
 
 .details-position {
     position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
-.more {
+.more-details {
     position: absolute;
-    top: 270px;
+    top: 150%;
     left: 15%;
 }
 
-.more a {
+.paragraph-off {
+    padding-bottom: 9px;
+}
+
+.more-details a {
     color: white;
     text-decoration: none;
     padding: 14px 40px;
     border: 2px solid white;
     border-radius: 12px;
     transition-duration: 0.4s;
+    display: block;
 }
 
-.more a:hover {
+.more-details a:hover {
     background-color: #C8102E;
-    color: white;
 }
