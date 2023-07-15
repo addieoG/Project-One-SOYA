@@ -81,7 +81,6 @@ a:active {
 
 /*hero Image Styles */
 .hero-image-section {
-    background-color: #C8102E;
     width: 100%;
     height: 600px;
     position: relative;
@@ -126,7 +125,6 @@ a:active {
 .about {
     height: 400px;
     width: 100%;
-    background-color: #C8102E;
     display: flex;
     height: 400px;
     flex-direction: column;
