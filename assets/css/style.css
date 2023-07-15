@@ -90,8 +90,9 @@ a:active {
 }
 
 .main-img {
+    margin-top: 80px;
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     animation-name: main-img-zoom;
@@ -316,12 +317,26 @@ a:active {
     padding-bottom: 15px;
 }
 
-.calander a {
+.details-position {
+    position: relative;
+}
+
+.more {
+    position: absolute;
+    top: 270px;
+    left: 15%;
+}
+
+.more a {
     color: white;
-    margin-top: 100px;
-    height: 80px;
-    width: 80px;
-    border: 5px solid white;
-    border-radius: 25%;
-    text-align: center;
+    text-decoration: none;
+    padding: 14px 40px;
+    border: 2px solid white;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+.more a:hover {
+    background-color: #C8102E;
+    color: white;
 }
