@@ -7,22 +7,11 @@
 }
 
 /*generic stylings */
-
 .bold {
     font-weight: 700;
 }
 
-.background-image {
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    height: 2400px;
-    opacity: 0.5;
-}
-
 /* Nav Bar */
-
 .nav_1 {
     display: flex;
     justify-content: center;
@@ -42,7 +31,6 @@ nav a img {
 
 nav li {
     list-style: none;
-
 }
 
 nav li a {
@@ -62,7 +50,6 @@ a:active {
 }
 
 /*hero Image Styles */
-
 .hero-image-section {
     background-color: red;
     width: 100%;
@@ -81,7 +68,6 @@ a:active {
     font-size: 5em;
     color: white;
     position: absolute;
-
 }
 
 .main-img {
@@ -90,22 +76,21 @@ a:active {
     display: flex;
     justify-content: center;
     animation-name: main-img-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-duration: 6s;
+    animation-fill-mode: both;
 }
 
 @keyframes main-img-zoom {
     from {
-        transform: scale(1);
+        transform: scale(0.2);
     }
 
     to {
-        transform: scale(1.3);
+        transform: scale(1);
     }
 }
 
 /*Styling the about section */
-
 .throwing {
     display: flex;
     height: 200px;
@@ -125,7 +110,6 @@ a:active {
     align-items: center;
     background-color: blue;
     margin-right: 20px;
-
 }
 
 .throwing>p {
@@ -193,7 +177,6 @@ a:active {
     align-items: center;
     background-color: black;
     margin-right: 20px;
-
 }
 
 .dancing>p {
@@ -261,7 +244,6 @@ a:active {
     align-items: center;
     background-color: red;
     margin-right: 20px;
-
 }
 
 .kicking>p {
@@ -285,7 +267,6 @@ a:active {
     width: 100%;
     overflow: hidden;
     margin-top: 20px;
-
 }
 
 .calander section {
@@ -303,7 +284,6 @@ a:active {
     padding-top: 10px;
     font-size: 1.25rem;
     background-color: rgba(0, 0, 0, 0.25);
-
 }
 
 .calander h2 {
