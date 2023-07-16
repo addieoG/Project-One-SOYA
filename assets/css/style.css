@@ -6,7 +6,6 @@
     border: none;
 }
 
-
 /*generic stylings */
 .bold {
     font-weight: 700;
@@ -398,7 +397,7 @@ a:active {
 .calander section {
     color: white;
     width: 20%;
-    height: 600px;
+    height: 550px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
@@ -457,7 +456,6 @@ a:active {
 /*footer Styling*/
 footer {
     height: 150px;
-
 }
 
 .socials {
