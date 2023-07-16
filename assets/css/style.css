@@ -457,19 +457,20 @@ a:active {
 /*footer Styling*/
 footer {
     height: 150px;
+
 }
 
-.social-networks {
+.socials {
     text-align: center;
 }
 
-.social-networks>li {
+.socials>li {
     display: inline;
 }
 
-.social-networks i {
-    font-size: 160%;
+.socials i {
+    font-size: 250%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #51534a;
 }
