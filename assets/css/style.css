@@ -476,6 +476,12 @@ footer {
     vertical-align: middle;
     width: 100%;
     max-height: 430px;
+    transition: transform .2s
+}
+
+.column img:hover {
+    transform: scale(1.2);
+    z-index: 1;
 }
 
 /* style form  */
@@ -678,4 +684,26 @@ input:nth-of-type:hover {
     background: #00A651;
     box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #f4f9ff;
     color: #f4f9ff;
+}
+
+.para-style-details {
+    color: #f4f4f4;
+
+}
+
+.para-style-details h2 {
+    font-size: 0.7rem;
+}
+
+.para-style-details h3 {
+    margin-top: 5px;
+}
+
+.para-style-details p {
+    font-size: .90rem;
+}
+
+.para-style-details a {
+    color: #f4f4f4;
+    margin-top: 15px;
 }
