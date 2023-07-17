@@ -595,9 +595,10 @@ input:nth-of-type:hover {
 
 /* more details page*/
 .container-details {
+    margin-top: -150px;
     position: relative;
-    width: 450px;
-    height: 650px;
+    width: 570px;
+    height: 540px;
     border-radius: 20px;
     padding: 40px;
     box-sizing: border-box;
@@ -615,5 +616,66 @@ input:nth-of-type:hover {
     margin-top: 20px;
     color: #f4f9ff;
     font-size: 1.5rem;
+}
 
+.details-body {
+    height: 800px;
+    width: 100vw;
+    background: #51534a;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+}
+
+.container-details-e {
+    margin-top: -150px;
+    position: relative;
+    width: 570px;
+    height: 540px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #0081C8;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #f4f9ff;
+}
+
+.container-details-d {
+    margin-top: -150px;
+    position: relative;
+    width: 570px;
+    height: 540px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #FCB131;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #f4f9ff;
+    color: #000000;
+}
+
+.container-details-c {
+    margin-top: -150px;
+    position: relative;
+    width: 570px;
+    height: 540px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #000000;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #f4f9ff;
+    color: #f4f9ff;
+}
+
+.container-details-b {
+    margin-top: -150px;
+    position: relative;
+    width: 570px;
+    height: 540px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #00A651;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #f4f9ff;
+    color: #f4f9ff;
 }
