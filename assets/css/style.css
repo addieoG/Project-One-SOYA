@@ -707,3 +707,12 @@ input:nth-of-type:hover {
     color: #f4f4f4;
     margin-top: 15px;
 }
+
+
+@media screen and (max-width:950px) {
+    .info-section {
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+    }
+}
