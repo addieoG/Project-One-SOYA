@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital,wght@0,400;1,400;1,700&display=swap');
 
+/* Global settings */
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +23,6 @@ a {
 h3 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
-
 }
 
 p {
@@ -30,7 +30,6 @@ p {
     font-weight: 400;
     line-height: 1.5;
 }
-
 
 /* Nav Bar */
 header {
@@ -215,7 +214,7 @@ a:active {
     margin-left: 10px;
 }
 
-/*Styling our club does*/
+/*Styling what our club does*/
 .info-section p {
     display: flex;
     align-items: center;
@@ -420,10 +419,10 @@ a:active {
 }
 
 .more-details a {
-    color: white;
+    color: #f4f9ff;
     text-decoration: none;
     padding: 14px 40px;
-    border: 2px solid white;
+    border: 2px solid #f4f9ff;
     border-radius: 12px;
     transition-duration: 0.4s;
     display: block;
@@ -509,7 +508,7 @@ input {
     padding: 40px;
     box-sizing: border-box;
     background: #C8102E;
-    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    box-shadow: 14px 14px 20px #51534a, -14px -14px 20px white;
 }
 
 .olympics-logo img {
@@ -527,7 +526,7 @@ input {
     margin-top: 10px;
     font-weight: 700;
     font-size: 2rem;
-    color: #ecf0f3;
+    color: #f4f9ff;
     letter-spacing: 1px;
     font-style: italic;
 }
@@ -688,7 +687,6 @@ input:nth-of-type:hover {
 
 .para-style-details {
     color: #f4f4f4;
-
 }
 
 .para-style-details h2 {
@@ -706,13 +704,4 @@ input:nth-of-type:hover {
 .para-style-details a {
     color: #f4f4f4;
     margin-top: 15px;
-}
-
-
-@media screen and (max-width:950px) {
-    .info-section {
-        display: flex;
-        width: fit-content;
-        flex-direction: column;
-    }
 }
