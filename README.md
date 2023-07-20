@@ -12,7 +12,15 @@ Special Olympics Young Athletes Galway is a sports club in Galway City. It aims 
     * [***How Is This Will Be Achieved:***](#how-is-this-will-be-achieved)
     * [***Color Scheme***](#color-scheme)
 1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
-  
+    * [***Header***](#header)
+    * [***Logo***](#logo)
+    * [***Hero Img***](#hero-image)
+    * [***About Page***](#about-page)
+    * [***Memories Page***](#memories-page)
+    * [***Sign up Page***](#sign-up-page)
+    * [***Anchor Tags***](#anchor-tags)
+    * [***Footer***](#footer)
+    * [***Typography***](#typography)
 
 
 
@@ -65,7 +73,6 @@ For the header, I decided to incorporate the Special Olypics Logo with a Nav bar
 * I have included one hero image on the main page. It is designed using the olympics ring, with an image in each ring.
 
 ### **About Page**:
-#### *Hero-Image:*
 The hero image depicts the athletes in the olypic rings. I thought it might be a cool feature and way to show of the athletes and introduce a colour theme. The about page also provides a small summary about what we try to achieve at SOYA. It then breaks down some of the key skills areas and finishes off with a calander of up comming classes, dates, times and more details. 
 ![About page hero image](assets/images/Hero-image-olympic-ring.JPG))
 
@@ -73,7 +80,6 @@ The hero image depicts the athletes in the olypic rings. I thought it might be a
 I wanted to add a gallery style page, where atheletes developments can be shared. 
 
 ### **Sign up page:**
-#### *Hero-Image:*
 A Simple page where new athletes can be signed up. 
 
 ## **Anchor Tags**
