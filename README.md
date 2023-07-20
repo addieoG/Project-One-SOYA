@@ -32,7 +32,6 @@ Special Olympics Young Athletes Galway is a sports club in Galway City. It aims 
     * [**Content**](#content)
 
 
-
 ## **Planning stage**
 
 ### **Target Audiences:**
@@ -82,7 +81,7 @@ For the header, I decided to incorporate the Special Olypics Logo with a Nav bar
 * I have included one hero image on the main page. It is designed using the olympics ring, with an image in each ring.
 
 ### **About Page**:
-The hero image depicts the athletes in the olypic rings. I thought it might be a cool feature and way to show of the athletes and introduce a colour theme. The about page also provides a small summary about what we try to achieve at SOYA. It then breaks down some of the key skills areas and finishes off with a calander of up comming classes, dates, times and more details. 
+The hero image depicts the athletes in the olypic rings. I thought it might be a cool feature and way to show of the athletes and introduce a colour theme. The about page also provides a small summary about what we try to achieve at SOYA. It then breaks down some of the key skills areas and finishes off with a calander of up comming classes, dates, times and more details.
 ![About page hero image](assets/images/Hero-image-olympic-ring.JPG))
 
 ### **memories page**:
@@ -126,12 +125,15 @@ A Simple page where new athletes can be signed up.
 
 (![Sign up page content](assets/images/sign-up-page.jpg))
 
-
 ## **Future-Enhancements**
 I think in the future I would like to revist this site and turn into something great. I think with some more time spent in planning, a better understanding of CSS and responsive design, thrown in with some Java Script, I think this site could really serve a purpose. 
 
 ## **Deployment**
-I deployed the page on GitHub pages, the live site can be found at the following URL - [SOYA.SC live webpage](https://addieog.github.io/Project-One-SOYA/)
+* I deployed the page on GitHub pages, the live site can be found at the following URL - [SOYA.SC live webpage](https://addieog.github.io/Project-One-SOYA/)
+* tested performance messaure mobile![google dev](assets/images/mobile-performance-lighthouse.jpg)
+* tested performance messaure desktop![google dev](assets/images/performance-desktop.jpg)
+* tested validation at![W3C Validator](https://validator.w3.org/#validate_by_uri) 
+
 
 ## **Credits**
 ### **Honorable mentions**
@@ -154,9 +156,8 @@ This project could not have happened without the support of the following people
 * Image in the hero image 1[pexels.com](https://www.pexels.com/photo/unrecognizable-girl-playing-basketball-on-sports-ground-5623073/)
 * Image in the hero image 2[pexels.com](https://www.pexels.com/photo/toddler-playing-soccer-296302/)
 * Image in the hero image 3[pexels.com](https://www.pexels.com/photo/girls-having-fun-while-holding-tennis-rackets-9648765//)
-Image in the hero image 4[pexels.com](https://www.pexels.com/photo/little-girls-and-boys-having-fun-playing-with-colorful-balls-8613146/)
-Image in the hero image 5[pexels.com](https://www.pexels.com/photo/children-playing-with-colorful-mats-8613318//)
-
+* Image in the hero image 4[pexels.com](https://www.pexels.com/photo/little-girls-and-boys-having-fun-playing-with-colorful-balls-8613146/)
+* Image in the hero image 5[pexels.com](https://www.pexels.com/photo/children-playing-with-colorful-mats-8613318//)
 * Image within in gallery - [pexels](https://www.pexels.com/photo/four-boys-running-in-track-2310482/)
 * Image within in gallery - [pexels](https://www.pexels.com/photo/children-s-team-building-on-green-grassland-296301/)
 * Image within in gallery - [pexels](https://www.pexels.com/photo/children-playing-football-together-8813539/)
