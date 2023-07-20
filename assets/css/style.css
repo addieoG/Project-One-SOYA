@@ -371,11 +371,6 @@ a:active {
     box-sizing: border-box;
 }
 
-.calander p {
-    padding-top: 10px;
-    font-size: 1.25rem;
-}
-
 .calander h2 {
     padding-bottom: 10px;
 }
@@ -384,34 +379,22 @@ a:active {
     padding-bottom: 15px;
 }
 
-.details-position {
-    position: relative;
-    height: 300px;
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
-.more-details {
-    position: absolute;
-    top: 100%;
-    left: 15%;
-    text-align: center;
-    right: 15%;
-}
-
-.more-details a {
+.details-position a {
     color: #f4f9ff;
-    text-decoration: none;
-    padding: 14px 40px;
-    border: 2px solid #f4f9ff;
-    border-radius: 12px;
-    transition-duration: 0.4s;
-    display: block;
     text-align: center;
-    word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
-.more-details a:hover {
-    background-color: #C8102E;
+.details-position a:hover,
+a:active {
+    color: #C8102E;
+}
+
+.details-position span {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*footer Styling*/
@@ -687,9 +670,6 @@ input:nth-of-type:hover {
 }
 
 /* responsive desgin  */
-
-/* responsive design */
-/* Mobile styles */
 @media screen and (max-width: 1000px) {
 
     /* Center the heading on mobile */
@@ -720,4 +700,34 @@ input:nth-of-type:hover {
         font-size: 16px;
         /* Change this to your desired font size */
     }
+}
+
+@media screen and (max-width: 950px) {
+    .calander>section {
+        width: 100%;
+        clear: both;
+        height: 200px;
+        padding: 0;
+        background: rgba(201, 76, 76, 0.5);
+    }
+
+    .details-position>h2 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .details-position>h3 {
+        font-size: 20px;
+    }
+
+    .details-position span {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .details-position a {
+        color: #f4f9ff;
+
+    }
+
 }
