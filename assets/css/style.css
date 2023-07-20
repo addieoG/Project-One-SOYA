@@ -192,7 +192,9 @@ a:active {
 
 /*Styling what our club does*/
 .info-section {
-    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    min-width: 360px;
 }
 
 .info-section p {
@@ -202,7 +204,8 @@ a:active {
     width: 450px;
     height: 150px;
     border-radius: 30% 0 50% 0;
-    font-size: 115%;
+    font-size: 90%;
+    padding-left: 5%;
 }
 
 .throwing {
@@ -211,7 +214,7 @@ a:active {
     height: 200px;
     width: 100%;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     color: #f4f9ff;
 }
@@ -229,9 +232,7 @@ a:active {
 }
 
 .throwing>p {
-    padding-left: 30px;
     background-color: #0081C8;
-    padding-right: 100px;
     box-shadow: inset 6px 6px 6px lightblue, inset -6px -6px 6px #51534a;
 }
 
@@ -239,9 +240,10 @@ a:active {
     display: flex;
     height: 200px;
     width: 100%;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    color: black;
 }
 
 .free-play>h1 {
@@ -252,14 +254,12 @@ a:active {
     justify-content: space-around;
     align-items: center;
     background-color: yellow;
-    margin-left: 20px;
+    margin-right: 20px;
     box-shadow: inset 6px 6px 6px lightyellow, inset -6px -6px 6px #51534a;
 }
 
 .free-play>p {
     background-color: yellow;
-    padding-left: 200px;
-    border-radius: 0% 30% 0 50%;
     box-shadow: inset 6px 6px 6px lightyellow, inset -6px -6px 6px #51534a;
 }
 
@@ -268,7 +268,7 @@ a:active {
     height: 200px;
     width: 100%;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     color: #f4f9ff;
 }
@@ -286,9 +286,7 @@ a:active {
 }
 
 .dancing>p {
-    padding-left: 30px;
     background-color: black;
-    padding-right: 100px;
     box-shadow: inset 6px 6px 6px #f4f9ff, inset -6px -6px 6px #51534a;
 }
 
@@ -296,8 +294,8 @@ a:active {
     display: flex;
     height: 200px;
     width: 100%;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
@@ -309,14 +307,12 @@ a:active {
     justify-content: space-around;
     align-items: center;
     background-color: green;
-    margin-left: 20px;
+    margin-right: 20px;
     box-shadow: inset 6px 6px 6px lightgreen, inset -6px -6px 6px #51534a;
 }
 
 .athletics>p {
     background-color: green;
-    padding-left: 200px;
-    border-radius: 0% 30% 0 50%;
     box-shadow: inset 6px 6px 6px lightgreen, inset -6px -6px 6px #51534a;
 }
 
@@ -325,7 +321,7 @@ a:active {
     height: 200px;
     width: 100%;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     color: #f4f9ff;
 }
@@ -343,9 +339,7 @@ a:active {
 }
 
 .kicking>p {
-    padding-left: 30px;
     background-color: #C8102E;
-    padding-right: 100px;
     box-shadow: inset 6px 6px 6px lightsalmon, inset -6px -6px 6px #51534a;
 }
 
@@ -669,23 +663,17 @@ input:nth-of-type:hover {
     margin-top: 15px;
 }
 
+
 /* responsive desgin  */
 @media screen and (max-width: 1000px) {
 
-    /* Center the heading on mobile */
     .club-name h1 {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    /* Adjust the heading font size for mobile */
-    .club-name h1 {
         font-size: 3em;
-        /* Change this to your desired font size */
     }
 
-    /* Shrink and center the image on mobile */
     .main-img img {
         max-width: 100%;
         height: auto;
@@ -695,11 +683,15 @@ input:nth-of-type:hover {
         margin-right: auto;
     }
 
-    /* Adjust the font size for paragraphs on mobile */
-    p {
-        font-size: 16px;
-        /* Change this to your desired font size */
+    .info-section * {
+        font-size: 10x;
+        width: fit-content;
+        display: flex;
+        justify-content: flex-start;
     }
+
+
+
 }
 
 @media screen and (max-width: 950px) {
@@ -727,7 +719,13 @@ input:nth-of-type:hover {
 
     .details-position a {
         color: #f4f9ff;
-
     }
 
+}
+
+@media screen and (max-width: 650px) {
+    .info-section section {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 }
