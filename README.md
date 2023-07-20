@@ -4,7 +4,7 @@ Special Olympics Young Athletes Galway is a sports club in Galway City. It aims 
 
 ![Am I responsive screenshot](assets/images/amireponsive-img.jpg))
 ## Table of contents:
-1. [**About thi site**](#about-this-site)
+1. [**About this site**](#about-this-site)
 1. [**Planning stage**](#planning-stage)
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
@@ -21,6 +21,18 @@ Special Olympics Young Athletes Galway is a sports club in Galway City. It aims 
     * [***Anchor Tags***](#anchor-tags)
     * [***Footer***](#footer)
     * [***Typography***](#typography)
+1. [**Individual Content**](#current-features-common-to-all-pages)
+    * [***About***](#about-page)
+    * [***Memories***](#memories-page)
+    * [***Sign Up***](#sign-up-page)
+1. [**Future-Enhancements**](#future-enhancements)
+1. [**Deployment**](#deployment)
+1. [**Credits**](#credits)
+    * [**Honorable mentions**](#honorable-mentions)
+    * [**Content**](#content)
+
+
+
 
 
 
@@ -61,7 +73,7 @@ When deciding the color scheme, I had a few ideas I wanted to play around with. 
 
 ## **Current Features Common to all pages**
 ###  **Header**
-![Heading Element](![Alt text](assets/images/heading-nav-bar.jpg))
+![Heading Element](assets/images/heading-nav-bar.jpg))
 
 For the header, I decided to incorporate the Special Olypics Logo with a Nav bar. I wanted to keep it clean and free from clutter. I designed a header element to float and remain seen at the top of the page. I personally always like to be able to see the top of page. I thought it worked well so I kept it. I originally did not have this set to stick, it look just off when I was scolling. It is centered and adjusts to all screen sizes, remaining the same. It also links to an additional 2 pages. 
 
@@ -100,7 +112,7 @@ A Simple page where new athletes can be signed up.
 ## **Individual Page Content features**
 ### **About This Site:**
 
-* This page gives a brief introduction to SOYA. It explains some of the core trainings and developements our Athletes develop through play. 
+* This page gives a brief introduction to SOYA. It explains some of the core trainings and developements our Athletes develop through play. it contains the hero img, unique to this pg only. 
 
 ![about this site main page](assets/images/about-this-club.jpg))
 
@@ -109,8 +121,7 @@ A Simple page where new athletes can be signed up.
 
 ![memories page](assets/images/memories.jpg)
 
-
-### **Sign up Page Content**
+### **Sign up Page**
 
 * This page allows the user (gaurdian) to sign up their young athelete. 
 
@@ -122,8 +133,9 @@ A Simple page where new athletes can be signed up.
 ## **Future-Enhancements**
 I think in the future I would like to revist this site and turn into something great. I think with some more time spent in planning, a better understanding of CSS and responsive design, thrown in with some Java Script, I think this site could really serve a purpose. 
 
-You  can find the live site via the following URL - [Modern Buddhism live webpage](https://dnlbowers.github.io/modern-buddhism/index.html)
-***
+## **Deployment**
+I deployed the page on GitHub pages, the live site can be found at the following URL - [SOYA.SC live webpage](https://addieog.github.io/Project-One-SOYA/)
+
 ## **Credits**
 ### **Honorable mentions**
 This project could not have happened without the support of the following people listed in no particular order:
@@ -135,7 +147,6 @@ This project could not have happened without the support of the following people
 * I relied upon W3schools, MDN web docs youtube videos for general references throughout the project.
 * performance messaure mobile![google dev](assets/images/mobile-performance-lighthouse.jpg)
 * performance messaure desktop![google dev](assets/images/performance-desktop.jpg))
-
 
 ### **Content:**
 * All content was written by myself. 
