@@ -33,9 +33,6 @@ Special Olympics Young Athletes Galway is a sports club in Galway City. It aims 
 
 
 
-
-
-
 ## **Planning stage**
 
 ### **Target Audiences:**
