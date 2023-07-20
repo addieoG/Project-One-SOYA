@@ -68,23 +68,23 @@ Special Olympics Young Athletes Galway is a sports club in Galway City. It aims 
 When deciding the color scheme, I had a few ideas I wanted to play around with. I wanted to use the special olympics grey and red, as used in their logo. I also decided I wanted to incorporate the colors of the Olympic Rings. This is a site for young athletes. I thought this mix of colours would be it bright and child friendly. 
 
 ## **Current Features Common to all pages**
-###  **Header**
-![Heading Element](assets/images/heading-nav-bar.jpg))
+###  **Header:**
+![Heading Element](assets/images/heading-nav-bar.jpg)
 
 For the header, I decided to incorporate the Special Olypics Logo with a Nav bar. I wanted to keep it clean and free from clutter. I designed a header element to float and remain seen at the top of the page. I personally always like to be able to see the top of page. I thought it worked well so I kept it. I originally did not have this set to stick, it look just off when I was scolling. It is centered and adjusts to all screen sizes, remaining the same. It also links to an additional 2 pages. 
 
 #### *Logo:*
 * The logo brings a sporty offical vibe to the page.
-![Logo](assets/images/Special_Olympics_Ireland_logo-removebg-preview.png))
+![Logo](assets/images/Special_Olympics_Ireland_logo-removebg-preview.png)
 
-### **Hero Image**
+### **Hero Image:**
 * I have included one hero image on the main page. It is designed using the olympics ring, with an image in each ring.
 
-### **About Page**:
+### **About Page:**
 The hero image depicts the athletes in the olypic rings. I thought it might be a cool feature and way to show of the athletes and introduce a colour theme. The about page also provides a small summary about what we try to achieve at SOYA. It then breaks down some of the key skills areas and finishes off with a calander of up comming classes, dates, times and more details.
-![About page hero image](assets/images/Hero-image-olympic-ring.JPG))
+![About page hero image](assets/images/Hero-image-olympic-ring.JPG)
 
-### **memories page**:
+### **memories page:**
 I wanted to add a gallery style page, where atheletes developments can be shared. 
 
 ### **Sign up page:**
@@ -110,7 +110,7 @@ A Simple page where new athletes can be signed up.
 
 * This page gives a brief introduction to SOYA. It explains some of the core trainings and developements our Athletes develop through play. it contains the hero img, unique to this pg only. 
 
-![about this site main page](assets/images/about-this-club.jpg))
+![about this site main page](assets/images/about-this-club.jpg)
 
 ### **Memories Page:**
 * This page includes a small gallery, it is to demonstrate how the memories of our athelets developments can be shared. 
@@ -123,7 +123,7 @@ A Simple page where new athletes can be signed up.
 
 *Note: This form doesn't gather any data; it was created using an action request. It's only purpose is show that the submit button works. 
 
-(![Sign up page content](assets/images/sign-up-page.jpg))
+![Sign up page content](assets/images/sign-up-page.jpg)
 
 ## **Future-Enhancements**
 I think in the future I would like to revist this site and turn into something great. I think with some more time spent in planning, a better understanding of CSS and responsive design, thrown in with some Java Script, I think this site could really serve a purpose. 
@@ -145,7 +145,7 @@ This project could not have happened without the support of the following people
 * The project was influenced by the Code Institutes code along project called Love running. Whilst I have tried to deviate as much as possible there may be some similarities in the code.
 * I relied upon W3schools, MDN web docs youtube videos for general references throughout the project.
 * performance messaure mobile![google dev](assets/images/mobile-performance-lighthouse.jpg)
-* performance messaure desktop![google dev](assets/images/performance-desktop.jpg))
+* performance messaure desktop![google dev](assets/images/performance-desktop.jpg)
 
 ### **Content:**
 * All content was written by myself. 
@@ -153,11 +153,11 @@ This project could not have happened without the support of the following people
 * The Logo was taken from - [Speical Olympics Branding](https://media.specialolympics.org/resources/brand-awareness-and-communication/branding/brand-guidelines/Brand-Guidelines-for-Accredited-Programs.pdf).
 * All fonts imported from - [Google Fonts](https://fonts.google.com/)
 * Accessibility checker - [Google Dev](https://pagespeed.web.dev/)
-* Image in the hero image 1 - [pexels.com](https://www.pexels.com/photo/unrecognizable-girl-playing-basketball-on-sports-ground-5623073/)
-* Image in the hero image 2 - [pexels.com](https://www.pexels.com/photo/toddler-playing-soccer-296302/)
-* Image in the hero image 3 - [pexels.com](https://www.pexels.com/photo/girls-having-fun-while-holding-tennis-rackets-9648765//)
-* Image in the hero image 4 - [pexels.com](https://www.pexels.com/photo/little-girls-and-boys-having-fun-playing-with-colorful-balls-8613146/)
-* Image in the hero image 5 - [pexels.com](https://www.pexels.com/photo/children-playing-with-colorful-mats-8613318//)
+* Image in the hero image 1 - [pexels](https://www.pexels.com/photo/unrecognizable-girl-playing-basketball-on-sports-ground-5623073/)
+* Image in the hero image 2 - [pexels](https://www.pexels.com/photo/toddler-playing-soccer-296302/)
+* Image in the hero image 3 - [pexels](https://www.pexels.com/photo/girls-having-fun-while-holding-tennis-rackets-9648765//)
+* Image in the hero image 4 - [pexels](https://www.pexels.com/photo/little-girls-and-boys-having-fun-playing-with-colorful-balls-8613146/)
+* Image in the hero image 5 - [pexels](https://www.pexels.com/photo/children-playing-with-colorful-mats-8613318//)
 * Image within in gallery - [pexels](https://www.pexels.com/photo/four-boys-running-in-track-2310482/)
 * Image within in gallery - [pexels](https://www.pexels.com/photo/children-s-team-building-on-green-grassland-296301/)
 * Image within in gallery - [pexels](https://www.pexels.com/photo/children-playing-football-together-8813539/)
